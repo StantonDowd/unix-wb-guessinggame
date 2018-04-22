@@ -5,7 +5,7 @@ all: README.md
 README.md: guessinggame.sh
 	echo "## This is the guessing game for The Unix Workbench on Coursera." > README.md
 	make_date=$$(date -R)
-	echo "- *makefile created $${make_date}*" >> README.md
+	echo "- *makefile created at $${make_date}*" >> README.md
 	line_count=$$(wc -l guessinggame.sh | egrep -o "[0-9]+")
 	echo "- *guessinggame.sh contains $${line_count} lines of code*" >> README.md
 clean:
