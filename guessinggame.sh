@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function file_quantity {
 	ls -l | egrep "^-r" | wc -l
 }
