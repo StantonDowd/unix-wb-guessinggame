@@ -20,6 +20,6 @@ do
 		echo -e "The number you have entered is too low.\nTry again!"
 	else
 		echo "Congratulations, you have entered the right number!"
-		echo "There is $fq files in this directory." 
+		echo "There are $fq files in this directory." 
 	fi
 done
